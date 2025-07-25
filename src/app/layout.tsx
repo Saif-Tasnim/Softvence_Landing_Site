@@ -38,8 +38,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang='en'>
-            <body className={`${FONT_DEFAULT.variable} ${switchThemeDuration} no-scrollbar`}>
+        <html lang='en' >
+            <body className={`${FONT_DEFAULT.variable} ${switchThemeDuration} no-scrollbar`} suppressHydrationWarning>
                 <ThemeProvider
                     attribute='class'
                     defaultTheme='system'

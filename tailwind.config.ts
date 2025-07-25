@@ -29,26 +29,14 @@ const config = {
         extend: {
             colors: {
                 white: '#ffffff',
-                primary: {
-                    25: '#E9EFFBE8',
-                    50: '#EFE6F8',
-                    100: '#DFCCF1',
-                    200: '#D0B3EA',
-                    300: '#C099E3',
-                    400: '#B080DC',
-                    500: '#A066D5',
-                    600: '#904DCE',
-                    700: '#8133C7',
-                    800: '#711AC0',
-                    900: '#6100B9'
-                },
+                primary: "#165831",
                 gray: {
                     25: '#FBFBFB',
                     50: '#E6E7E8',
                     100: '#CDD0D1',
                     200: '#B4B8BA',
-                    300: '#9BA0A3',
-                    400: '#82898C',
+                    300: '#949293',
+                    400: '#343434',
                     500: '#687174',
                     600: '#4F595D',
                     700: '#364146',
@@ -56,19 +44,7 @@ const config = {
                     900: '#041218',
                     950: '#130025'
                 },
-                fuchsia: {
-                    50: '#FFE9FF',
-                    100: '#FED2FE',
-                    200: '#FEBCFE',
-                    300: '#FEA5FE',
-                    400: '#FE8FFE',
-                    500: '#FD78FD',
-                    600: '#FD62FD',
-                    700: '#FD4BFD',
-                    800: '#FC35FC',
-                    900: '#FC1EFC',
-                    950: '#FBECFEE8'
-                },
+                
                 success: '#097400',
                 sucesslight: '#D1FFBB',
                 sucessdeep: '#096C00',
@@ -85,7 +61,7 @@ const config = {
                 infolight: '#3DBFF6'
             },
             fontFamily: {
-                primary: ['var(--font-be-vietnam-pro)']
+                primary: ['var(--font-inter)']
             },
             boxShadow: {
                 base: '0px 24px 60px 0px rgba(21, 24, 38, 0.15)'
