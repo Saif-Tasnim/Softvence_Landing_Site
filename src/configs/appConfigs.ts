@@ -1,16 +1,15 @@
-import { Poppins } from 'next/font/google';
+import { Inter } from 'next/font/google';
 
 export const SITE_TITLE_DEFAULT =
-    'Bangladesh Tourism Network';
-export const SITE_TITLE_TEMPLATE_DEFAULT = `%s - BTN`;
+    'Softvence Landing Site';
+export const SITE_TITLE_TEMPLATE_DEFAULT = `%s - Softvence`;
 export const SITE_DESCRIPTION_DEFAULT =
-    'A smart software solution to ensure accountability for all citizens towards the government';
+    'Softvence Landing Site is a platform that showcases our latest projects, services, and innovations. Explore our offerings and get in touch with us for more information.';
 export const SITE_VERIFICATION_GOOGLE_DEFAULT =
     'google-site-verification=adwdawdaw';
 
-export const FONT_DEFAULT = Poppins({
+export const FONT_DEFAULT = Inter({
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-poppins',
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+    variable: '--font-inter',
 });
