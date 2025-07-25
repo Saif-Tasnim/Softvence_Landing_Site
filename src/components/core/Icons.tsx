@@ -8,7 +8,8 @@ import {
     X,
     Loader2,
     LogOut,
-    Icon
+    Icon,
+    Mail
 } from 'lucide-react';
 
 const Icons = {
@@ -21,6 +22,7 @@ const Icons = {
     Loader2,
     LogOut,
     Icon,
+    Mail,
     EmptyBox: (props: LucideProps) => (
         <svg
             {...props}
