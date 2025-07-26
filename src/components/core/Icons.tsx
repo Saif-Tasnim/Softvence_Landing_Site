@@ -10,7 +10,7 @@ import {
     LogOut,
     Icon,
     Mail,
-    Phone,
+    Phone
 } from 'lucide-react';
 
 const Icons = {
@@ -25,6 +25,118 @@ const Icons = {
     Icon,
     Mail,
     Phone,
+    RightArrowWhite: (props: LucideProps) => (
+        <svg
+            {...props}
+            width='13'
+            height='23'
+            viewBox='0 0 13 23'
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+        >
+            <path
+                d='M3.07422 1.26685C3.51506 1.30124 3.92427 1.50919 4.21191 1.84497L11.7979 10.6936V10.6946C12.0563 10.9968 12.1982 11.3818 12.1982 11.7795C12.1981 12.1771 12.0562 12.5614 11.7979 12.8635V12.8645L4.21289 21.7131L4.20801 21.719L4.20312 21.7239C3.91015 22.041 3.50521 22.2329 3.07422 22.2581C2.6434 22.2832 2.21943 22.1403 1.8916 21.8596C1.5638 21.5789 1.35693 21.1818 1.31543 20.7522C1.27403 20.3225 1.40165 19.8932 1.66992 19.5549L1.67383 19.5491L1.67969 19.5432L8.33203 11.7786L1.67676 4.01587V4.01489C1.38917 3.67861 1.24694 3.24216 1.28125 2.80103C1.31568 2.35974 1.52397 1.95005 1.86035 1.66235C2.19663 1.37476 2.63308 1.23254 3.07422 1.26685Z'
+                fill='white'
+                stroke='white'
+                strokeWidth='0.809524'
+            />
+        </svg>
+    ),
+    RightArrowGreen: (props: LucideProps) => (
+        <svg
+            {...props}
+            width='13'
+            height='23'
+            viewBox='0 0 13 23'
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+        >
+            <path
+                d='M2.74121 1.26685C3.18205 1.30124 3.59126 1.50919 3.87891 1.84497L11.4648 10.6936V10.6946C11.7233 10.9968 11.8652 11.3818 11.8652 11.7795C11.8651 12.1771 11.7232 12.5614 11.4648 12.8635V12.8645L3.87988 21.7131L3.875 21.719L3.87012 21.7239C3.57714 22.041 3.1722 22.2329 2.74121 22.2581C2.31039 22.2832 1.88642 22.1403 1.55859 21.8596C1.23079 21.5789 1.02392 21.1818 0.982422 20.7522C0.94102 20.3225 1.06865 19.8932 1.33691 19.5549L1.34082 19.5491L1.34668 19.5432L7.99902 11.7786L1.34375 4.01587V4.01489C1.05616 3.67861 0.913928 3.24216 0.948242 2.80103C0.982669 2.35974 1.19096 1.95005 1.52734 1.66235C1.86362 1.37476 2.30007 1.23254 2.74121 1.26685Z'
+                fill='#175730'
+                stroke='#175730'
+                stroke-width='0.809524'
+            />
+        </svg>
+    ),
+    CheckMarkWhite: (props: LucideProps) => (
+        <svg
+            {...props}
+            width='24'
+            height='24'
+            viewBox='0 0 24 24'
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+        >
+            <path
+                d='M17 3.33782C15.5291 2.48697 13.8214 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 11.3151 21.9311 10.6462 21.8 10'
+                stroke='white'
+                strokeWidth='1.5'
+                strokeLinecap='round'
+            />
+            <path
+                d='M8 12.5C8 12.5 9.5 12.5 11.5 16C11.5 16 17.0588 6.83333 22 5'
+                stroke='white'
+                strokeWidth='1.5'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+            />
+        </svg>
+    ),
+    CheckMarkGreen: (props: LucideProps) => (
+        <svg
+            {...props}
+            width='25'
+            height='24'
+            viewBox='0 0 25 24'
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+        >
+            <path
+                d='M17.667 3.33782C16.1961 2.48697 14.4884 2 12.667 2C7.14414 2 2.66699 6.47715 2.66699 12C2.66699 17.5228 7.14414 22 12.667 22C18.1898 22 22.667 17.5228 22.667 12C22.667 11.3151 22.5981 10.6462 22.467 10'
+                stroke='#165831'
+                strokeWidth='1.5'
+                strokeLinecap='round'
+            />
+            <path
+                d='M8.66699 12.5C8.66699 12.5 10.167 12.5 12.167 16C12.167 16 17.7258 6.83333 22.667 5'
+                stroke='#165831'
+                strokeWidth='1.5'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+            />
+        </svg>
+    ),
+    Information: (props: LucideProps) => (
+        <svg
+            {...props}
+            width='24'
+            height='24'
+            viewBox='0 0 24 24'
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+        >
+            <path
+                d='M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z'
+                stroke='currentColor'
+                strokeWidth='1.5'
+            />
+            <path
+                d='M12.2422 17V12C12.2422 11.5286 12.2422 11.2929 12.0957 11.1464C11.9493 11 11.7136 11 11.2422 11'
+                stroke='currentColor'
+                strokeWidth='1.5'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+            />
+            <path
+                d='M11.9922 8H12.0012'
+                stroke='currentColor'
+                strokeWidth='2'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+            />
+        </svg>
+    ),
     EmptyBox: (props: LucideProps) => (
         <svg
             {...props}
@@ -213,6 +325,5 @@ const Icons = {
         </svg>
     )
 };
-
 
 export default Icons;
