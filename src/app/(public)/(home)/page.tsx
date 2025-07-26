@@ -1,11 +1,13 @@
 import React from 'react';
-import { LoanProduct, WhereWeLend } from './component';
+import { Banner, ChooseUs, LoanProduct, WhereWeLend } from './component';
 
 const HomePage = () => {
     return (
         <>
+            <Banner />
             <LoanProduct />
             <WhereWeLend />
+            <ChooseUs />
         </>
     );
 };
