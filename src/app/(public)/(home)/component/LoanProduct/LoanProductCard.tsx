@@ -25,6 +25,7 @@ const LoanProductCard = ({
     const bg = id === 1 ? 'bg-primary' : 'bg-white';
     const text = id === 1 ? 'text-white' : 'text-primary';
     const imageBg = id === 1 ? 'bg-white' : 'bg-primary';
+ 
 
     return (
         <div
@@ -37,9 +38,9 @@ const LoanProductCard = ({
                 <Image
                     src={image}
                     alt='image'
-                    width={32}
-                    height={32}
-                    className={`object-contain ${text}`}
+                    width={1000}
+                    height={1000}
+                    className={`w-20 h-20 object-contain ${text}`}
                 />
             </div>
 
@@ -70,7 +71,7 @@ const LoanProductCard = ({
                 ))}
             </ul>
             {/* learn more */}
-            <p className="flex items-center gap-3 py-5">
+            <p className='flex items-center gap-3 py-5'>
                 <Icons.Information className={`${text}`} />{' '}
                 <span className={`${text} underline`}>Learn More</span>
             </p>

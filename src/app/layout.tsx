@@ -42,7 +42,7 @@ export default function RootLayout({
             <body className={`${FONT_DEFAULT.variable} ${switchThemeDuration} no-scrollbar`} suppressHydrationWarning>
                 <ThemeProvider
                     attribute='class'
-                    defaultTheme='system'
+                    defaultTheme='light'
                     enableSystem
                 >
                     <Suspense fallback={<LoadingPage />} />

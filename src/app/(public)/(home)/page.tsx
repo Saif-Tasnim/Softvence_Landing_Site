@@ -1,10 +1,11 @@
 import React from 'react';
-import { LoanProduct } from './component';
+import { LoanProduct, WhereWeLend } from './component';
 
 const HomePage = () => {
     return (
         <>
             <LoanProduct />
+            <WhereWeLend />
         </>
     );
 };
