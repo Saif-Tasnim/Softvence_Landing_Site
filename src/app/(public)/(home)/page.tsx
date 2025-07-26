@@ -1,9 +1,10 @@
 import React from 'react';
+import { LoanProduct } from './component';
 
 const HomePage = () => {
     return (
         <>
-        home page    
+            <LoanProduct />
         </>
     );
 };
