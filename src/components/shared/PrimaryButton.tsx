@@ -12,7 +12,7 @@ const PrimaryButton = ({ content }: { content: string }) => {
             {content}
 
             {/* Angled green section */}
-            <span className='relative bg-white px-6 py-5 flex items-center clip-angled m-1 rounded-md'>
+            <span className='relative bg-white px-6 py-5 flex items-center clip-angled m-1.5 rounded-md'>
                 <Icons.RightArrowGreen size={20} />
                 <Icons.RightArrowGreen size={20} />
             </span>

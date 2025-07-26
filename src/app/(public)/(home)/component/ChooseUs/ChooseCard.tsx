@@ -20,6 +20,7 @@ const ChooseCard = ({ title, description, icon }: ChooseCardProps) => {
                     className='w-20 h-20 mb-2'
                 />
             </div>
+
         </div>
     );
 };

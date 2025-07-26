@@ -1,5 +1,12 @@
 import React from 'react';
-import { Banner, ChooseUs, LoanProduct, WhereWeLend } from './component';
+import {
+    Banner,
+    ChooseUs,
+    LoanProduct,
+    PastProjects,
+    WhereWeLend,
+    WorkingWithUs
+} from './component';
 
 const HomePage = () => {
     return (
@@ -8,6 +15,8 @@ const HomePage = () => {
             <LoanProduct />
             <WhereWeLend />
             <ChooseUs />
+            <PastProjects />
+            <WorkingWithUs />
         </>
     );
 };
