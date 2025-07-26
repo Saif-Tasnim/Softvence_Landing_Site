@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Property Details Component
+
+A clean, responsive property details component built with Next.js and Tailwind CSS. This component displays property information including square footage, number of garages, bedrooms, and bathrooms in a pixel-perfect grid layout.
+
+## Project Setup Instructions
+
+1. **Clone the repository**:
+  ```bash
+  git clone <https://github.com/Saif-Tasnim/Softvence_Landing_Site.git>
+  cd Softvence_Landing_Site
 
 ## Getting Started
 
